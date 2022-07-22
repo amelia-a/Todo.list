@@ -17,6 +17,11 @@
 		941FE46A2886E35100A1481A /* Todo_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941FE4692886E35100A1481A /* Todo_listTests.swift */; };
 		941FE4742886E35200A1481A /* Todo_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941FE4732886E35200A1481A /* Todo_listUITests.swift */; };
 		941FE4762886E35200A1481A /* Todo_listUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941FE4752886E35200A1481A /* Todo_listUITestsLaunchTests.swift */; };
+		94373C00288ADE5A00C8AF44 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94373BFF288ADE5A00C8AF44 /* SwiftUIView.swift */; };
+		94373C02288AEB0400C8AF44 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94373C01288AEB0400C8AF44 /* WaterViewController.swift */; };
+		94373C08288AF75000C8AF44 /* GIFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94373C07288AF75000C8AF44 /* GIFTableViewController.swift */; };
+		94373C0A288AF89C00C8AF44 /* waterbottlegiff.gif in Resources */ = {isa = PBXBuildFile; fileRef = 94373C09288AF89C00C8AF44 /* waterbottlegiff.gif */; };
+		94373C0C288AF96900C8AF44 /* ExtraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94373C0B288AF96900C8AF44 /* ExtraTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		941FE46F2886E35200A1481A /* Todo.listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo.listUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		941FE4732886E35200A1481A /* Todo_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_listUITests.swift; sourceTree = "<group>"; };
 		941FE4752886E35200A1481A /* Todo_listUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_listUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94373BFF288ADE5A00C8AF44 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		94373C01288AEB0400C8AF44 /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		94373C07288AF75000C8AF44 /* GIFTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTableViewController.swift; sourceTree = "<group>"; };
+		94373C09288AF89C00C8AF44 /* waterbottlegiff.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = waterbottlegiff.gif; path = ../../../Downloads/waterbottlegiff.gif; sourceTree = "<group>"; };
+		94373C0B288AF96900C8AF44 /* ExtraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +114,12 @@
 				941FE44F2886E34700A1481A /* AppDelegate.swift */,
 				941FE4512886E34700A1481A /* SceneDelegate.swift */,
 				941FE4532886E34700A1481A /* ViewController.swift */,
+				94373C0B288AF96900C8AF44 /* ExtraTableViewController.swift */,
 				941FE4552886E34700A1481A /* Main.storyboard */,
+				94373C07288AF75000C8AF44 /* GIFTableViewController.swift */,
+				94373C09288AF89C00C8AF44 /* waterbottlegiff.gif */,
+				94373C01288AEB0400C8AF44 /* WaterViewController.swift */,
+				94373BFF288ADE5A00C8AF44 /* SwiftUIView.swift */,
 				941FE45B2886E35000A1481A /* Assets.xcassets */,
 				941FE45D2886E35000A1481A /* LaunchScreen.storyboard */,
 				941FE4602886E35000A1481A /* Info.plist */,
@@ -234,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94373C0A288AF89C00C8AF44 /* waterbottlegiff.gif in Resources */,
 				941FE45F2886E35000A1481A /* LaunchScreen.storyboard in Resources */,
 				941FE45C2886E35000A1481A /* Assets.xcassets in Resources */,
 				941FE4572886E34700A1481A /* Main.storyboard in Resources */,
@@ -263,8 +279,12 @@
 			files = (
 				941FE4542886E34700A1481A /* ViewController.swift in Sources */,
 				941FE4502886E34700A1481A /* AppDelegate.swift in Sources */,
+				94373C02288AEB0400C8AF44 /* WaterViewController.swift in Sources */,
+				94373C00288ADE5A00C8AF44 /* SwiftUIView.swift in Sources */,
+				94373C0C288AF96900C8AF44 /* ExtraTableViewController.swift in Sources */,
 				941FE4522886E34700A1481A /* SceneDelegate.swift in Sources */,
 				941FE45A2886E34700A1481A /* Todo_list.xcdatamodeld in Sources */,
+				94373C08288AF75000C8AF44 /* GIFTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
